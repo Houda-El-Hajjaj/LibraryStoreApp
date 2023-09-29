@@ -1,0 +1,37 @@
+/* ListBooks.css */
+
+.ListContainer {
+    display: grid;
+    grid-gap: 20px; /* Adjust the gap between books as needed */
+  
+    @media screen and (min-width: 200px){
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    @media screen and (min-width: 800px){
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    @media screen and (min-width: 1000px){
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+/* ListBooks.css */
+
+.ListContainer {
+    background-color: rgba(255, 255, 255, 0.7); /* Use rgba to set a slightly transparent white background */
+    border-radius: 15px; /* Add rounded borders */
+    max-width: 1400px; /* Set a maximum width */
+    margin: 20px auto 0;
+    padding-bottom: 60px;
+  }
+
+.Write h3{
+    text-align: left;
+    color: purple;
+    font-size: 36px; /* Adjust the font size */
+    margin: 5; /* Remove margin to prevent spacing */
+    margin-left: 120px;
+}
+  

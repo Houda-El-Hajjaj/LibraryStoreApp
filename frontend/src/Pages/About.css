@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Stint+Ultra+Expanded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* About page specific styles */
+.about-page {
+    border-radius: 5px;
+    margin-top: 20px;
+    
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.about-page h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+.about-content {
+    margin-bottom: 50px;
+
+}
+
+.about-content h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.about-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+.about-content p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #555;
+    font-family: 'Stint Ultra Expanded', cursive;
+}
+
+/* styles.css */
+
+/* ... (your existing styles) */
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .article-card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .article-image {
+    max-width: 100%;
+    height: 200px; 
+    width: 500px;
+    object-fit: cover; 
+  }
+  
+  .article-text {
+    padding: 10px;
+  }
+  
+  .article-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: purple;
+  }
+  
+  .article-text p {
+    font-size: 14px;
+    color: #555;
+    font-family: 'Stint Ultra Expanded', cursive;
+  }
+  
+
+

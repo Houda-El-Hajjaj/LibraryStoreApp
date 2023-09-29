@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Stint+Ultra+Expanded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+.footer {
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    padding: 20px 0;
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin-left: 70px;
+  }
+  
+  .contact-me h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: bold; /* Use 'font-weight' instead of 'font-style' for bold text */
+  }
+  
+  .contact-me p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: 'Stint Ultra Expanded', cursive;
+  }
+  
+  .contact-me strong {
+    color: #d5b3e8;
+  }
+  

@@ -1,0 +1,63 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Stint+Ultra+Expanded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+.HeaderText {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center; /* Center text within the div */
+  height: 100%; /* Optionally, set a height if needed */
+}
+
+.HeaderText h2{
+    font-family: 'Stint Ultra Expanded', cursive;
+  color: purple;
+  font-size: 26px;
+
+}
+
+.HeaderText p{
+    font-size: 16px;
+    font-style: Bold; 
+    font-family: 'Stint Ultra Expanded', cursive;
+
+}
+
+.BookText h2{
+    font-family: 'Stint Ultra Expanded', cursive;
+    text-align: left;
+    color: purple;
+    font-size: 26px; /* Adjust the font size */
+    margin-left: 120px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    width: 100%;
+    flex-direction: row; /* Set the direction to horizontal */
+  }
+  
+  .card {
+    flex-shrink: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: -140px;
+    margin-right: -120px; /* Adjust margin to separate cards */
+    margin-top: -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
